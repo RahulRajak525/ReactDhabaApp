@@ -1,0 +1,32 @@
+.summary {
+  text-align: center;
+  max-width: 50rem;
+  width: 90%;
+  margin: auto;
+  margin-top: -20rem;
+  position: relative;
+  border-radius: 14px;
+  padding: 1rem;
+  z-index: 1;
+  color: black;
+  text-shadow: 3px 3px 5px #e7e2e2;
+}
+
+.summary h2 {
+  color: rgb(14, 0, 207);
+  font-size: 2.5rem;
+  margin-top: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* background: linear-gradient(50deg, #000ece, #0004ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+.summary p {
+  font-size: 1.5rem;
+}
+.summary h3 {
+  font-size: 1.5rem;
+  /* font-style: oblique; */
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0013f9;
+}

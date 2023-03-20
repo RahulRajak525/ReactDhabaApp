@@ -1,0 +1,29 @@
+.primary {
+  text-align: center;
+  position: fixed;
+  top: 25vh;
+  left: 25%;
+  width: 45%;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 30;
+  animation: slide-down 300ms ease-out forwards;
+  animation: 500ms ease-out 0s 1 normal forwards running Modal_slide-down__jSpcg;
+}
+.header {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.link {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.home {
+  top: 0px;
+  left: 0px;
+}
+
+

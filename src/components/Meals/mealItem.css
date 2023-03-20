@@ -1,0 +1,167 @@
+.meal-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  margin: 20px auto;
+  width: 50vw;
+  top: -10rem;
+}
+
+.foodItem-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 5px 5px rgb(4 4 4 / 56%);
+  margin-bottom: 20px;
+}
+.foodItem-container:hover {
+  box-shadow: 0 8px 8px rgb(4 4 4 / 76%);
+}
+.food-item-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 5px;
+  background-color: whitesmoke;
+}
+.restaurant-name h3 {
+  display: flex;
+  background-color: #d9dae5;
+  height: 10vh;
+  width: 15vw;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.food-item-card img {
+  height: 10rem;
+  width: 15rem;
+  margin-right: 20px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.food-item-details {
+  flex: 2;
+}
+
+.food-item-name {
+  font-size: 24px;
+  margin: 0;
+}
+
+.food-item-description {
+  margin: 10px 0;
+}
+
+.food-item-rating {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.food-item-price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.addbutton button {
+  background: transparent;
+  float: right;
+  display: flex;
+  width: 5vw;
+  height: 5vh;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.action {
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+  border: 1px solid green;
+  float: right;
+  border-radius: 5px;
+  margin-right: 2vw;
+  margin-bottom: 2vh;
+  width: 10vw;
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+}
+.action span {
+  font-size: 20px;
+}
+.action .btn {
+  border: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .foodItem-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    border-radius: 15px;
+  }
+  .food-item-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 15px;
+  }
+  .addbutton {
+    margin-right: 20px;
+  }
+  .addbutton button {
+    background: transparent;
+    float: right;
+    display: flex;
+    width: 15vw;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    background: transparent;
+  }
+  .action {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    border: 1px solid green;
+    /* float: right; */
+    border-radius: 5px;
+    margin-right: 2vw;
+    margin-bottom: 2vh;
+    width: 25vw;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .restaurant-name h3 {
+    display: flex;
+    background-color: #d9dae5;
+    height: 10vh;
+    width: 30vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 15px;
+  }
+}

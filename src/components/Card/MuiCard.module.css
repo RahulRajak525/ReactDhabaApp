@@ -1,0 +1,57 @@
+.meals {
+  background-image: url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg");
+  background-repeat: no-repeat;
+}
+
+.availableMeals1 {
+  display: flex;
+  direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+.Card {
+  padding: 10px;
+  margin: 45px;
+  display: flex;
+  direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 56%);
+}
+.Card:hover {
+  box-shadow: 1px 6px 7px rgb(0 0 0 / 76%);
+  cursor: pointer;
+}
+
+.ImageNshare {
+  display: flex;
+}
+.shareIcon {
+  color: white;
+  height: fit-content;
+}
+.shareIcon:hover {
+  color: blue;
+}
+
+.img img {
+  border-radius: 4px;
+  height: 10rem;
+  width: 20rem;
+  object-fit: cover;
+}
+
+.title {
+  text-align: center;
+}
+.cardActions {
+  justify-content: space-between;
+  width: 100%;
+}
+.starIcon {
+  color: gold;
+  width: 300px;
+}

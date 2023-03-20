@@ -1,0 +1,110 @@
+.order {
+  position: relative;
+  top: -300px;
+  margin: auto;
+  background-color: beige;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid #777;
+  border-radius: 10px;
+  animation: 500ms ease-out 0s 1 normal forwards running Modal_slide-down__jSpcg;
+}
+.cart {
+  border-bottom: 2px solid rgb(100, 97, 97);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4px;
+}
+.cart img {
+  height: 66px;
+  width: 86px;
+  border-radius: 50%;
+}
+.content {
+  float: left;
+  margin: -8px 5px;
+  margin-left: -25px;
+}
+
+.totalContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 100%;
+  padding: 0px 25px;
+}
+
+.subTotal {
+  float: right;
+  margin-right: 15px;
+}
+
+.action {
+  text-align: right;
+  border: 1px solid green;
+  float: right;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+  margin-bottom: 5px;
+}
+.action span {
+  font-size: 20px;
+}
+.action button {
+  padding: 0.5rem 0.5rem;
+  margin-left: 1rem;
+}
+
+.actions {
+  text-align: right;
+  width: 100%;
+  padding: 5px 5px;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  background: linear-gradient(
+    90deg,
+    rgba(11, 93, 244, 0.8),
+    rgba(16, 1, 102, 0.8) 87.19%
+  );
+  border: 1px solid rgb(248, 244, 244);
+  padding: 0.5rem 1.5rem;
+  color: #fff;
+  border-radius: 20px;
+  margin-left: 1rem;
+  box-shadow: 0 5px 5px rgb(4 4 4 / 56%);
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #5b96d3;
+  border-color: #5b96d3;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .order {
+    position: relative;
+    top: -300px;
+    margin: auto;
+    background-color: beige;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #777;
+    border-radius: 10px;
+    animation: 500ms ease-out 0s 1 normal forwards running
+      Modal_slide-down__jSpcg;
+  }
+}
